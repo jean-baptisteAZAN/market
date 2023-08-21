@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "../../lib/component/navbar.svelte";
-    import Footer from "../../lib/component/footer.svelte"
+    import Navbar from "$lib/component/navbar.svelte";
+    import Footer from "$lib/component/footer.svelte"
     let pdfUrl = '/status.pdf';
 </script>
 
