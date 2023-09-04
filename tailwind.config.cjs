@@ -6,9 +6,12 @@ const config = {
 	],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				'roboto': ['Roboto Slab', 'Arial']
+			},
+		}
 	},
-
 	plugins: [
 		require('flowbite/plugin')
 	],

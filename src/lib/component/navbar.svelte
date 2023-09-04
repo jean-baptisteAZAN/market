@@ -1,5 +1,5 @@
 <script>
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte'
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem} from 'flowbite-svelte'
     import logopPath from "$lib/assets/logo.png"
   </script>
 
