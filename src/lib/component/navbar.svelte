@@ -16,7 +16,6 @@
     </NavBrand>
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
-      <NavLi href="/" active={true}>Home</NavLi>
       <NavLi id="nav-menu1" class="cursor-pointer">Qui sommes-nous</NavLi>
       <NavLi href="/">Le Projet</NavLi>
       <NavLi href="/help_us">Aidez-nous</NavLi>
