@@ -4,6 +4,9 @@
     import Footer from "$lib/component/footer.svelte";
 </script>
 
-<Navbar/>
-<Hero/>
+<div class="h-screen w-screen">
+    <Navbar/>
+    <Hero/>
+</div>
+
 <Footer/>
