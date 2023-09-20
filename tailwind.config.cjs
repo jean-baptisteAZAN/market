@@ -6,10 +6,15 @@ const config = {
 	],
 
 	theme: {
+		colors: {
+			primary: '#f87c24',
+			secondary : '#339252',
+		},
 		extend: {
 			fontFamily: {
 				'roboto': ['Roboto Slab', 'Arial']
 			},
+
 		}
 	},
 	plugins: [

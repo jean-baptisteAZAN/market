@@ -19,10 +19,10 @@
     </Card>
     <div class="w-full flex flex-row">
        <div class="w-[50%] flex items-center justify-center">
-           <h4 class="font-roboto px-20">
+           <h4 class="font-roboto md:px-20">
                <b>MOBILISEZ VOUS A NOS COTES DANS CE COMBAT</b>
                <br>Nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le défendre en justice
-               <br>Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le futur dans le respect de ce qu’il est depuis toujours : un lieu romantique unique et charmant. Tout sauf une galerie marchande à ciel ouvert.
+               <br>Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le futur dans le respect de ce qu’il est depuis toujours: un lieu romantique unique et charmant. Tout sauf une galerie marchande à ciel ouvert.
            </h4>
        </div>
         <img class="w-[50%] rounded-2xl" src="/phtos/Marche-aux-fleurs-01092023-03.jpg" alt="img">
