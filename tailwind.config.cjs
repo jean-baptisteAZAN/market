@@ -8,7 +8,8 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				'roboto': ['Roboto Slab', 'Arial']
+				'roboto': ['Roboto Slab', 'Arial'],
+				'Abel' : ['Abel', 'sans-serif']
 			},
 		}
 	},
