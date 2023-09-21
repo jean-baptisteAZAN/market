@@ -10,3 +10,9 @@
 	-webkit-font-smoothing: antialiased; /* For Chrome and Safari */
 	-moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
 }
+
+
+@font-face {
+	font-family: 'Abel';
+	src: url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+}
