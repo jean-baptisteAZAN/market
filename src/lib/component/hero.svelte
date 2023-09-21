@@ -2,7 +2,9 @@
     let linkDonate = "https://donorbox.org/marketofflowers";
 </script>
 
-<div class="bg-cover bg-no-repeat bg-center h-full flex flex-col items-center justify-center bg-[url('$lib/assets/hero2.jpg')]">
+<div class="bg-cover bg-no-repeat bg-center  h-full flex flex-col items-center justify-center bg-[url('$lib/assets/hero2.jpg')]">
+<!--    <div class="bg-gradient-to-t w-full h-10 absolute top-0 from-transparent to-white">-->
+<!--    </div>-->
     <div class="md:max-w-[100%] max-w-[80%] md:px-20 items-center justify-center md:-mt-[10%]">
         <div class="bg-green-800 bg-opacity-70 relative rounded-2xl flex flex-col justify-center items-center pt-10 pb-10 px-5">
             <h1 class="font-roboto text-center text-3xl uppercase text-white">
