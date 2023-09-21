@@ -5,7 +5,7 @@
 <Navbar/>
 
 <div class="flex flex-col items-center justify-center">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.14777596174!2d2.344982676891588!3d48.855392400917054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e1d1d2ae53%3A0x62264edc3c9699d7!2sMarch%C3%A9%20aux%20Fleurs%20Reine%20Elizabeth%20II!5e0!3m2!1sfr!2sfr!4v1689843954323!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.14777596174!2d2.344982676891588!3d48.855392400917054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e1d1d2ae53%3A0x62264edc3c9699d7!2sMarch%C3%A9%20aux%20Fleurs%20Reine%20Elizabeth%20II!5e0!3m2!1sfr!2sfr!4v1689843954323!5m2!1sfr!2sfr" class="w-[77rem] h-[30rem]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <div class="container my-24 mx-auto md:px-6">
