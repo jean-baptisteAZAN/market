@@ -2,40 +2,32 @@
     import Navbar from "$lib/component/navbar.svelte";
     import Hero from "$lib/component/hero.svelte";
     import Footer from "$lib/component/footer.svelte";
-    import {Card, Button, Toggle} from 'flowbite-svelte';
     import My_card from "$lib/component/card.svelte";
     import Carousel from "svelte-carousel";
     import {browser} from "$app/environment";
     import Timeline from "$lib/component/Timeline.svelte";
-
-    let hCard = false;
-
-    let i_carousel = 1
-    let carousel2
-    let i_carousel2 = 1
-    let carousel
-
+    let carousel;
     let cards = [
         {
             img: "/phtos/Marche-aux-fleurs-01092023-08.jpg",
             href: "/",
-            title: "Première étapes",
+            title: "Première étape",
             description: "C’est d’abord   se structurer  et en conséquence adopter des statuts conformes à notre ambition de porter un contreprojet face à la  ville de PARIS"
         },
         {
             img: "/willi.jpeg",
             href: "/",
-            title: "Deuxième étapes",
+            title: "Deuxième étape",
             description: "Choisir des prestataires compétents pour nous défendre et bâtir notre projet alternatif ce que nous avons fait en choisissant WILLIAM AZAN  comme avocat spécialisé en droit public ;MAURIZIO ET TAL LANCMAN comme directeurs artistiques ."
         }, {
             img: "/phtos/Marche-aux-fleurs-01092023-01.jpg",
             href: "/",
-            title: "Troisième étapes",
+            title: "Troisième étape",
             description: "Bâtir un site internet pour nous présenter et collecter des fonds via une plateforme sécurisée en totale transparence avec vous. C’est la mission que nous avons confiée à  CAROLE DUPARC , huissier audiencier du Tribunal de Commerce de PARIS."
         }, {
             img: "/phtos/Marche-aux-fleurs-01092023-22.jpg",
             href: "/",
-            title: "Dernière étapes",
+            title: "Dernière étape",
             description: "Se doter d’un compte INSTAGRAM  et d’un compte FACEBOOK qui seront nos lignes de vie et de partages avec vous"
         }
     ];
@@ -115,17 +107,9 @@
                 </div>
 
             {/each}
-            <!--            <div slot="dots" class="flex flex-row justify-center items-center gap-4">-->
-            <!--                <div on:click={() => {i_carousel = 1; carousel.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-            <!--                <div on:click={() => {i_carousel = 2; carousel.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-            <!--                <div on:click={() => {i_carousel = 3; carousel.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-            <!--                <div on:click={() => {i_carousel = 4; carousel.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-            <!--            </div>-->
         </Carousel>
     {/if}
 </div>
-
-
 <div class="mt-10  mb-10 flex flex-col items-center justify-center">
     <div class="w-full flex flex-row">
         <div class="w-[50%] flex items-center justify-center">
@@ -141,41 +125,8 @@
         <img class="w-[50%] rounded-2xl" src="/phtos/Marche-aux-fleurs-01092023-03.jpg" alt="img">
     </div>
 </div>
-
 <h1 class="mt-10 text-center text-[40px] font-roboto font-bold">
     Mais les prochaines étapes sont décisives. !
 </h1>
-
-<div class="">
-    <Timeline/>
-</div>
-
-<!--<div class="w-screen mt-10 flex justify-center items-center">-->
-<!--    {#if browser}-->
-<!--        <Carousel-->
-<!--                bind:this={carousel2}-->
-<!--                particlesToShow={3}-->
-<!--                particlesToScroll={1}-->
-<!--                arrows={false}-->
-<!--                autoplay-->
-<!--                autoplayDuration={2000}-->
-<!--                dots={false}-->
-<!--        >-->
-<!--            {#each cards2 as cardItem, index}-->
-<!--                <div class="flex justify-center items-center">-->
-<!--                    <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description} />-->
-<!--                </div>-->
-
-<!--            {/each}-->
-
-<!--            <div slot="dots" class="flex flex-row justify-center items-center gap-4">-->
-<!--                <div on:click={() => {i_carousel2 = 1; carousel2.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-<!--                <div on:click={() => {i_carousel2 = 2; carousel2.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-<!--                <div on:click={() => {i_carousel2 = 3; carousel2.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-<!--                <div on:click={() => {i_carousel2 = 4; carousel2.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
-<!--            </div>-->
-<!--        </Carousel>-->
-<!--    {/if}-->
-<!--</div>-->
-
+<Timeline/>
 <Footer/>

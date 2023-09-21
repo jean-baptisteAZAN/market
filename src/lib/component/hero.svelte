@@ -12,7 +12,7 @@
                 NOUS AVONS<br>BESOIN DE <span class="text-[50px] text-[white]">VOUS</span>
             </h1>
             <a href={linkDonate}  class="flex flex-row mt-8 justify-center items-center max-w-[90%] px-5 h-12 bg-gradient-to-r from-green-800 to-green-400 gap-3 rounded-full hover:scale-110 cursor-pointer transition-all duration-200">
-                <img src="/Icon-heart.png" alt="heart" class="w-5">
+                <img loading="lazy" src="/Icon-heart.png" alt="heart" class="w-5">
                 <p class="font-montserrat font-bold text-white md:text-lg lg:text-2xl"> Je fais un don</p>
             </a>
         </div>
