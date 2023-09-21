@@ -6,6 +6,7 @@
     import My_card from "$lib/component/card.svelte";
     import Carousel from "svelte-carousel";
     import {browser} from "$app/environment";
+    import Timeline from "$lib/component/Timeline.svelte";
     let hCard = false;
 
     let i_carousel = 1
@@ -85,25 +86,25 @@
 </div>
 
 <div class="px-[10%]">
-    <h1 class="mt-5 text-center text-[40px] font-roboto font-bold">
+    <h1 class="mt-20 text-center text-[40px] font-roboto font-bold">
         NOTRE PROJET
     </h1>
     <h2 class="text-center text-[30px] font-roboto mt-5">
         Avec l’appui des meilleurs spécialistes nous voulons préserver l’environnement et l’histoire de ce lieu exceptionnel pour chacun d’entre vous.
         Nous avons donc engagé de nombreuses actions destinées à nous renforcer avec le soutien de chacun d’entre vous.
     </h2>
-
-
-
 </div>
 
-<div class=" w-screen mt-10 flex justify-center items-center">
+<div class=" w-screen mt-10 flex justify-center items-center overflow-hidden">
     {#if browser}
         <Carousel
                 bind:this={carousel}
                 particlesToShow={3}
                 particlesToScroll={1}
                 arrows={false}
+                autoplay
+                autoplayDuration={2000}
+                dots={false}
         >
                 {#each cards as cardItem, index}
                     <div class="flex justify-center items-center">
@@ -111,24 +112,21 @@
                     </div>
 
                 {/each}
-
-            <div slot="dots" class="flex flex-row justify-center items-center gap-4">
-                <div on:click={() => {i_carousel = 1; carousel.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel = 2; carousel.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel = 3; carousel.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel = 4; carousel.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-
-            </div>
+<!--            <div slot="dots" class="flex flex-row justify-center items-center gap-4">-->
+<!--                <div on:click={() => {i_carousel = 1; carousel.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel = 2; carousel.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel = 3; carousel.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel = 4; carousel.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--            </div>-->
         </Carousel>
     {/if}
 </div>
 
 
-<div class="mt-20  flex flex-col items-center justify-center">
-
+<div class="mt-10  mb-10 flex flex-col items-center justify-center">
     <div class="w-full flex flex-row">
        <div class="w-[50%] flex items-center justify-center">
-           <h4 class="font-roboto md:px-20">
+           <h4 class="font-roboto md:px-32">
                <b>MOBILISEZ VOUS A NOS COTES DANS CE COMBAT</b>
                <br>Nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le défendre en justice
                <br>Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le futur dans le respect de ce qu’il est depuis toujours: un lieu romantique unique et charmant. Tout sauf une galerie marchande à ciel ouvert.
@@ -138,34 +136,40 @@
     </div>
 </div>
 
-<h1 class="mt-5 text-center text-[40px] font-roboto font-bold">
+<h1 class="mt-10 text-center text-[40px] font-roboto font-bold">
     Mais les prochaines étapes sont décisives. !
 </h1>
 
-<div class=" w-screen mt-10 flex justify-center items-center">
-    {#if browser}
-        <Carousel
-                bind:this={carousel2}
-                particlesToShow={3}
-                particlesToScroll={1}
-                arrows={false}
-        >
-            {#each cards2 as cardItem, index}
-                <div class="flex justify-center items-center">
-                    <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description} />
-                </div>
-
-            {/each}
-
-            <div slot="dots" class="flex flex-row justify-center items-center gap-4">
-                <div on:click={() => {i_carousel2 = 1; carousel2.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel2 = 2; carousel2.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel2 = 3; carousel2.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-                <div on:click={() => {i_carousel2 = 4; carousel2.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>
-
-            </div>
-        </Carousel>
-    {/if}
+<div class="">
+    <Timeline/>
 </div>
+
+<!--<div class="w-screen mt-10 flex justify-center items-center">-->
+<!--    {#if browser}-->
+<!--        <Carousel-->
+<!--                bind:this={carousel2}-->
+<!--                particlesToShow={3}-->
+<!--                particlesToScroll={1}-->
+<!--                arrows={false}-->
+<!--                autoplay-->
+<!--                autoplayDuration={2000}-->
+<!--                dots={false}-->
+<!--        >-->
+<!--            {#each cards2 as cardItem, index}-->
+<!--                <div class="flex justify-center items-center">-->
+<!--                    <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description} />-->
+<!--                </div>-->
+
+<!--            {/each}-->
+
+<!--            <div slot="dots" class="flex flex-row justify-center items-center gap-4">-->
+<!--                <div on:click={() => {i_carousel2 = 1; carousel2.goTo(0)}} class:opacity-100={i_carousel === 1} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel2 = 2; carousel2.goTo(1)}} class:opacity-100={i_carousel === 2} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel2 = 3; carousel2.goTo(2)}} class:opacity-100={i_carousel === 3} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--                <div on:click={() => {i_carousel2 = 4; carousel2.goTo(3)}} class:opacity-100={i_carousel === 4} class="h-[8px] w-[8px] rounded-full bg-green-600 opacity-50"></div>-->
+<!--            </div>-->
+<!--        </Carousel>-->
+<!--    {/if}-->
+<!--</div>-->
 
 <Footer/>

@@ -1,5 +1,4 @@
 <script>
-    import hero_src from "$lib/assets/hero.jpg"
     let linkDonate = "https://donorbox.org/marketofflowers";
 </script>
 
