@@ -97,7 +97,7 @@
                 particlesToScroll={1}
                 arrows={false}
                 autoplay
-                autoplayDuration={2000}
+                autoplayDuration={5000}
                 dots={false}
         >
             {#each cards as cardItem, index}
