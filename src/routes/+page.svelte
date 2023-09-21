@@ -87,6 +87,7 @@
                 autoplay
                 autoplayDuration={5000}
                 dots={false}
+                swiping={true}
         >
             {#each cards as cardItem, index}
                 <div class="flex justify-center items-center">
