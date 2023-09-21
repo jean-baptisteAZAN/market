@@ -3,6 +3,7 @@
     import Hero from "$lib/component/hero.svelte";
     import Footer from "$lib/component/footer.svelte";
     import {Card, Button, Toggle} from 'flowbite-svelte';
+    import {onMount} from "svelte";
     import My_card from "$lib/component/card.svelte";
     import Carousel from "svelte-carousel";
     import {browser} from "$app/environment";
