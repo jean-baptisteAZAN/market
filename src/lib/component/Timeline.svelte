@@ -16,9 +16,8 @@
                             <img src="/phtos/Marche-aux-fleurs-01092023-22.jpg" alt="Marche aux fleurs" class="rounded shadow">
                         </div>
                     </div>
-
                     <div class="rounded-full bg-green-800 border-white border-4 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                        <img src="/svg-icon/photo.png" alt="photo" class="w-[70%] h-[70%]">
+                        <img src="/svg-icon/photo.png" alt="svg" class="w-[70%] h-[70%]">
                     </div>
                 </div>
             </div>
@@ -27,7 +26,7 @@
                 <div class="flex flex-col sm:flex-row items-center">
                     <div class="flex justify-end w-full mx-auto items-center">
                         <div class="w-full sm:w-1/2 sm:pr-8">
-                            <img src="/phtos/Marche-aux-fleurs-01092023-08.jpg" alt="Marche aux fleurs" class="rounded shadow">
+                            <img src="/phtos/MagasinShawnee2.jpg" alt="Marche aux fleurs" class="rounded shadow">
                         </div>
                         <div class="w-full sm:w-1/2 sm:pl-8">
                             <div class="p-4 bg-white rounded shadow">

@@ -48,7 +48,7 @@
             title: "Deuxième étape",
             description: "Choisir des prestataires compétents pour nous défendre et bâtir notre projet alternatif ce que nous avons fait en choisissant WILLIAM AZAN  comme avocat spécialisé en droit public ;MAURIZIO ET TAL LANCMAN comme directeurs artistiques ."
         }, {
-            img: "/phtos/designer.jpeg",
+            img: "/phtos/Image_magasin_shawnee.jpg",
             href: "/",
             title: "Troisième étape",
             description: "Bâtir un site internet pour nous présenter et collecter des fonds via une plateforme sécurisée en totale transparence avec vous. C’est la mission que nous avons confiée à  CAROLE DUPARC , huissier audiencier du Tribunal de Commerce de PARIS."
