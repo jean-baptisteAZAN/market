@@ -2,7 +2,7 @@
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem} from 'flowbite-svelte'
     import logopPath from "$lib/assets/logo.png"
     let linkDonate = "https://donorbox.org/marketofflowers";
-  </script>
+</script>
 
   <Navbar let:hidden let:toggle>
     <NavBrand href="/">
