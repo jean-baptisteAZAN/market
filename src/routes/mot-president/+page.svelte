@@ -7,7 +7,7 @@
 
 <div class="flex flex-col items-center justify-center">
     <h1 class="font-roboto text-5xl mt-10">
-        <b>Le mot de la présidente</b>
+        <b>Le mot du président</b>
     </h1>
     <div class="w-full flex flex-col md:flex-row items-center justify-center font-roboto text-3xl mt-10 md:px-20">
         <h4 class="w-full md:w-[50%] px-10 md:pr-20">
