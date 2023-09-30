@@ -35,6 +35,7 @@
 	"type": "module",
 	"dependencies": {
 		"firebase": "^9.17.1",
-		"svelte-carousel": "^1.0.25"
+		"svelte-carousel": "^1.0.25",
+		"svelte-i18n": "^3.7.4"
 	}
 }

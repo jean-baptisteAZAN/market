@@ -14,7 +14,7 @@
     </NavBrand>
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
-      <NavLi href="/mot-president" class="font-roboto cursor-pointer">Le mot de la présidente</NavLi>
+      <NavLi href="/mot-president" class="font-roboto cursor-pointer">Le mot du président</NavLi>
       <NavLi href={linkDonate} class="font-roboto">Je donne</NavLi>
       <NavLi href="/contact" class="font-roboto">Rejoignez nous</NavLi>
     </NavUl>
