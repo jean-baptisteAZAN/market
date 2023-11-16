@@ -85,8 +85,6 @@
     {/each}
 </div>
 
-
-
 <div class="mt-10  mb-10 flex flex-col items-center justify-center">
     <div class="w-full flex flex-col justify-center items-center md:flex-row">
         <div class="w-[90%] md:w-[50%] flex items-center justify-center">
@@ -104,8 +102,4 @@
     </div>
 </div>
 
-<!--<h1 class="mt-10 text-center text-[40px] font-roboto font-bold px-5">-->
-<!--    Mais les prochaines étapes sont décisives !-->
-<!--</h1>-->
-<!--<Timeline/>-->
 <Footer/>
