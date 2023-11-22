@@ -77,7 +77,7 @@
     </h2>
 </div>
 
-<div class="w-screen mt-10 flex justify-center items-center overflow-hidden">
+<div class="w-screen mt-10  justify-center items-center overflow-hidden hidden md:flex">
     {#each cards as cardItem, index}
         <div class="flex justify-center items-center w-1/3"> <!-- Divide the screen into three equal parts -->
             <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description}/>
