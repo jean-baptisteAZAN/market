@@ -40,18 +40,20 @@
             img: "/phtos/Marche-aux-fleurs-01092023-08.jpg",
             href: "/",
             title: "Un projet porté par une association",
-            description: 'Les fleuristes du Marché aux Fleurs se sont structurés au sein d’une association. <br>Elle est secondée par des experts juridiques et une équipe de designer. L’équipeva continuer à s’étoffer d’autres spécialistes'
+            description: 'Les fleuristes du Marché aux Fleurs se sont structurés au sein d’une association. <br>Elle est secondée par des experts juridiques et une équipe de designer. L’équipe va continuer à s’étoffer d’autres spécialistes'
         },
         {
             img: "/phtos/Marche-aux-fleurs-01092023-12.jpg",
             href: "/",
             title: "Un projet reposant sur un appel aux dons.",
-            description: 'L’objectif   de   cet   appel   participatif,   via   une   plateforme   sécurisée   est   double. Réunir le capital pour proposer un contre-projet à la Ville de Paris et financer les travaux   de   rénovation   du   Marché   aux   Fleurs. <br>Ces   fonds   permettront   aussi d’indemniser les fleuristes en cas d’éviction par la Ville de Paris.'
+            description: 'L’objectif   de   cet   appel   participatif,   via   une ' +
+            '  plateforme   sécurisée   est   double. Réunir le capital pour proposer un ' +
+            'contre-projet à la Ville de Paris et financer les travaux   de   rénovation   du   Marché   aux   Fleurs. <br>'
         },
         {
-            img: "/phtos/Marche-aux-fleurs-01092023-22.jpg",
+            img: "/phtos/reine.jpg",
             href: "/",
-            title: "Un projet reposant sur un appel aux dons.",
+            title: "Un projet reposant sur la création d'une communauté des amoureux du marché aux fleurs",
             description: 'Protéger le marché aux Fleurs est un acte citoyen, affectif et solidaire. Pour cela, nous   souhaitons   regrouper   et   consolider   la   communauté   des   amoureux  du Marché aux Fleurs. A travers les réseaux-sociaux et d’évènements, nous vous ferons partager les différents moments de cette aventure.'
         },
     ];
@@ -64,9 +66,9 @@
 </div>
 
 <div class="px-[10%]">
-    <h1 class="mt-20 text-center text-[40px] font-roboto font-bold">
+    <h1 class="mt-20 text-center text-[40px] font-roboto font-bold uppercase">
         UN APPEL AUX DONS POUR PROTEGER LE MARCHE AUX
-        LEURS
+        FLEURS
     </h1>
     <h2 class="text-center text-[20px] md:text-[30px] font-roboto mt-5">
         Avec   l’appui   des   fleuristes   du   marché   et   de   spécialistes,   nous   défendons   un
@@ -77,9 +79,9 @@
     </h2>
 </div>
 
-<div class="w-screen mt-10  justify-center items-center overflow-hidden hidden md:flex">
+<div class="w-screen mt-10  justify-center items-center  hidden md:flex">
     {#each cards as cardItem, index}
-        <div class="flex justify-center items-center w-1/3"> <!-- Divide the screen into three equal parts -->
+        <div class="flex justify-center items-center w-1/3">
             <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description}/>
         </div>
     {/each}
@@ -89,16 +91,16 @@
     <div class="w-full flex flex-col justify-center items-center md:flex-row">
         <div class="w-[90%] md:w-[50%] flex items-center justify-center">
             <h4 class=" mb-5 md:mb-0 text-center md:text-left font-roboto md:px-[10%]">
-                <b>MOBILISEZ VOUS A NOS COTES DANS CE COMBAT</b>
-                Nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le
-                défendre en justice.
-                <br>Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le
+                <b class="text-xl">MOBILISEZ VOUS A NOS COTES DANS CE COMBAT</b><br/>
+                nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le défendre en justice si nécessaire
+                Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le
                 futur dans le respect de ce qu’il est depuis toujours: un lieu romantique unique et
                 charmant.
-                <br>Tout sauf une galerie marchande à ciel ouvert.
+                Tout sauf une galerie marchande à ciel ouvert.
             </h4>
         </div>
-        <img class="w-[80%] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/Marche-aux-fleurs-01092023-03.jpg" alt="img">
+<!--        <div class="bg-[url('/phtos/cage.jpeg')] w-[80%] h-96 bg-cover bg-no-repeat md:w-1/2"/>-->
+        <img class="w-[80%] h-[40rem] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/cage.jpeg" alt="img">
     </div>
 </div>
 

@@ -5,7 +5,7 @@
     export let description = '';
 </script>
 
-<div class="mb-4 h-[35rem] border-solid border-2 rounded-xl w-[90%] flex flex-col items-center hover:drop-shadow-lg transition-all hover:bg-[#F0F0F0] border-[#F0F0F0] hover:scale-105  duration-600">
+<div class="mb-4 h-[35rem] border-solid border-2 rounded-xl w-[90%] flex flex-col items-center  transition-all hover:bg-[#F0F0F0] border-[#F0F0F0] hover:scale-105  duration-600">
     <div class="h-[50%] w-full ">
         <img src="{img}" class="object-cover w-full rounded-xl h-[100%]"/>
     </div>
