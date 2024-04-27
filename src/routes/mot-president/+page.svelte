@@ -35,7 +35,7 @@
         </h4>
         <img src="/phtos/pic5.jpeg" alt="img" class="w-full md:w-[50%] h-[50rem] rounded-2xl">
     </div>
-    <div class="w-full flex flex-col md:flex-row items-center justify-center font-roboto text-3xl mt-10 md:px-20">
+    <div class="w-full flex flex-col md:flex-row items-center justify-center font-roboto text-3xl mt-10 md:px-20 mb-5">
         <img src="/phtos/pic6.jpg" alt="img" class="w-full md:w-[50%] rounded-2xl">
         <h4 class="w-full md:w-[50%] px-10 md:pr-20">
             La Ville de Paris entend évincer, sans indemnité, ses commerçants pour mener à bien un

@@ -99,7 +99,6 @@
                 Tout sauf une galerie marchande à ciel ouvert.
             </h4>
         </div>
-<!--        <div class="bg-[url('/phtos/cage.jpeg')] w-[80%] h-96 bg-cover bg-no-repeat md:w-1/2"/>-->
         <img class="w-[80%] h-[40rem] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/cage.jpeg" alt="img">
     </div>
 </div>

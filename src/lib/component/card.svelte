@@ -9,8 +9,8 @@
     <div class="h-[50%] w-full ">
         <img src="{img}" class="object-cover w-full rounded-xl h-[100%]"/>
     </div>
-    <a href={href} class="px-8 h-[50%] flex flex-col items-center justify-center">
+    <div class="px-8 h-[50%] flex flex-col items-center justify-center">
         <h5 class="text-center mt-3 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-roboto px-10 ">{title}</h5>
         <p class="text-center mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight font-roboto px-10">{@html description}</p>
-    </a>
+    </div>
 </div>
