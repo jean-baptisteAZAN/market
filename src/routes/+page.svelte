@@ -2,19 +2,12 @@
     import Navbar from "$lib/component/navbar.svelte";
     import Hero from "$lib/component/hero.svelte";
     import Footer from "$lib/component/footer.svelte";
-    import {Card, Button, Toggle} from 'flowbite-svelte';
     import {onMount} from "svelte";
     import My_card from "$lib/component/card.svelte";
-    import Carousel from "svelte-carousel";
-    import {browser} from "$app/environment";
-    import Timeline from "$lib/component/Timeline.svelte";
-
-    let carousel
-    let particlesToShow = 3;
 
     onMount(() => {
         const updateParticlesToShow = () => {
-            if (window.innerWidth <= 700) { // Taille mobile
+            if (window.innerWidth <= 700) {
                 particlesToShow = 1;
             } else if (window.innerWidth <= 1200)
                 particlesToShow = 2;
@@ -22,14 +15,10 @@
                 particlesToShow = 3;
             }
         };
-
-        // Initialise la valeur
         updateParticlesToShow();
 
-        // Écoute les changements de taille
         window.addEventListener('resize', updateParticlesToShow);
 
-        // Supprime l'écouteur lorsque le composant est détruit
         onDestroy(() => {
             window.removeEventListener('resize', updateParticlesToShow);
         });
@@ -37,7 +26,7 @@
 
     let cards = [
         {
-            img: "/phtos/Marche-aux-fleurs-01092023-08.jpg",
+            img: "/phtos/edgar.jpg",
             href: "/",
             title: "Un projet porté par une association",
             description: 'Les fleuristes du Marché aux Fleurs se sont structurés au sein d’une association. <br>Elle est secondée par des experts juridiques et une équipe de designer. L’équipe va continuer à s’étoffer d’autres spécialistes'
@@ -99,7 +88,7 @@
                 Tout sauf une galerie marchande à ciel ouvert.
             </h4>
         </div>
-        <img class="w-[80%] h-[40rem] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/cage.jpeg" alt="img">
+        <img class="w-[80%] h-[40rem] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/shawnee.jpg" alt="img">
     </div>
 </div>
 
