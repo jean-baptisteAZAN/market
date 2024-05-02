@@ -28,16 +28,14 @@
         {
             img: "/phtos/edgar.jpg",
             href: "/",
-            title: "Un projet porté par une association",
-            description: 'Les fleuristes du Marché aux Fleurs se sont structurés au sein d’une association. <br>Elle est secondée par des experts juridiques et une équipe de designer. L’équipe va continuer à s’étoffer d’autres spécialistes'
+            title: "Unis au sein d'une association dynamique, les fleuristes du Marché aux Fleurs ont su s'organiser et se structurer.",
+            description: 'Cette association bénévole est épaulée par une équipe d\'experts juridiques et de designers talentueux. Afin d\'enrichir ses compétences et d\'apporter une expertise toujours plus pointue au projet de sauvegarde du marché, l\'équipe continue de s\'agrandir en accueillant de nouveaux spécialistes.'
         },
         {
             img: "/phtos/img.png",
             href: "/",
             title: "Un projet reposant sur un appel aux dons.",
-            description: 'L’objectif   de   cet   appel   participatif,   via   une ' +
-            '  plateforme   sécurisée   est   double. Réunir le capital pour proposer un ' +
-            'contre-projet à la Ville de Paris et financer les travaux   de   rénovation   du   Marché   aux   Fleurs. <br>'
+            description: 'Cet appel participatif, lancé sur une plateforme sécurisée, poursuit un double objectif : lever les fonds nécessaires pour soumettre à la Ville de Paris un contre-projet alternatif et financer les travaux de rénovation du Marché aux Fleurs'
         },
         {
             img: "/phtos/reine.jpg",
@@ -60,11 +58,11 @@
         FLEURS
     </h1>
     <h2 class="text-center text-[20px] md:text-[30px] font-roboto mt-5">
-        Avec   l’appui   des   fleuristes   du   marché   et   de   spécialistes,   nous   défendons   un
-        projet préservant l’histoire et l’avenir de ce lieu exceptionnel. Nous avons donc
-        lancé de nombreuses actions pour que ce projet se réalise et que le Marché aux
-        fleurs   reste   accessible   et   appartienne   pour   l’éternité   à   tous   les   parisiens   et
-        amoureux du végétal.
+        Fleuriste du marché et spécialistes dévoués s'unissent pour défendre un
+        projet qui préserve à la fois l'histoire et l'avenir de ce lieu unique.
+        De nombreuses actions sont lancées pour que le Marché aux Fleurs reste
+        accessible et appartienne pour l’éternité à tous les parisiens et amoureux
+        du végétal.
     </h2>
 </div>
 
@@ -81,11 +79,10 @@
         <div class="w-[90%] md:w-[50%] flex items-center justify-center">
             <h4 class=" mb-5 md:mb-0 text-center md:text-left font-roboto md:px-[10%]">
                 <b class="text-xl">MOBILISEZ VOUS A NOS COTES DANS CE COMBAT</b><br/>
-                nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le défendre en justice si nécessaire
-                Participez étroitement à définir le concept sur lequel nous fonderons le marché pour le
-                futur dans le respect de ce qu’il est depuis toujours: un lieu romantique unique et
-                charmant.
-                Tout sauf une galerie marchande à ciel ouvert.
+                Ensemble, sauvons le Marché aux Fleurs !
+                Nous avons besoin de vous pour donner un nouvel élan au marché aux fleurs et pour le défendre en justice si nécessaire.
+                Votre voix et votre soutien sont essentiels pour préserver ce lieu unique et romantique, menacé par des projets de transformation inacceptables.
+                Faites connaître notre cause. Parlez du Marché aux Fleurs à vos amis, votre famille et vos réseaux sociaux.Ensemble, nous pouvons faire la différence !
             </h4>
         </div>
         <img class="w-[80%] h-[40rem] md:mr-10 md:w-[50%] rounded-2xl" src="/phtos/shawnee.jpg" alt="img">
