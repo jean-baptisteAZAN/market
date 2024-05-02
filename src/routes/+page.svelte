@@ -32,7 +32,7 @@
             description: 'Les fleuristes du Marché aux Fleurs se sont structurés au sein d’une association. <br>Elle est secondée par des experts juridiques et une équipe de designer. L’équipe va continuer à s’étoffer d’autres spécialistes'
         },
         {
-            img: "/phtos/Marche-aux-fleurs-01092023-12.jpg",
+            img: "/phtos/img.png",
             href: "/",
             title: "Un projet reposant sur un appel aux dons.",
             description: 'L’objectif   de   cet   appel   participatif,   via   une ' +
