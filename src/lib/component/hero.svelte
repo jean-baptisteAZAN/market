@@ -18,6 +18,8 @@
         </div>
     </div>
     <div class="absolute hidden md:flex  bottom-0 md:bottom-5 z-20 rounded-full border-solid border-4 animate-bounce justify-center items-center">
-        <img src="/arrow.png" alt="descendre" class="w-[60px]">
+        <a href="#Description">
+            <img src="/arrow.png" alt="descendre" class="w-[60px]">
+        </a>
     </div>
 </div>

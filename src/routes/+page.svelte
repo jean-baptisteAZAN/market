@@ -27,19 +27,16 @@
     let cards = [
         {
             img: "/phtos/edgar.jpg",
-            href: "/",
             title: "Unis au sein d'une association dynamique, les fleuristes du Marché aux Fleurs ont su s'organiser et se structurer.",
             description: 'Cette association bénévole est épaulée par une équipe d\'experts juridiques et de designers talentueux. Afin d\'enrichir ses compétences et d\'apporter une expertise toujours plus pointue au projet de sauvegarde du marché, l\'équipe continue de s\'agrandir en accueillant de nouveaux spécialistes.'
         },
         {
             img: "/phtos/img.png",
-            href: "/",
             title: "Un projet reposant sur un appel aux dons.",
             description: 'Cet appel participatif, lancé sur une plateforme sécurisée, poursuit un double objectif : lever les fonds nécessaires pour soumettre à la Ville de Paris un contre-projet alternatif et financer les travaux de rénovation du Marché aux Fleurs'
         },
         {
             img: "/phtos/reine.jpg",
-            href: "/",
             title: "Un projet reposant sur la création d'une communauté des amoureux du marché aux fleurs",
             description: 'Protéger le marché aux Fleurs est un acte citoyen, affectif et solidaire. Pour cela, nous   souhaitons   regrouper   et   consolider   la   communauté   des   amoureux  du Marché aux Fleurs. A travers les réseaux-sociaux et d’évènements, nous vous ferons partager les différents moments de cette aventure.'
         },
@@ -52,7 +49,7 @@
     <Hero/>
 </div>
 
-<div class="px-[10%]">
+<div id="Description" class="px-[10%]">
     <h1 class="mt-20 text-center text-[40px] font-roboto font-bold uppercase">
         UN APPEL AUX DONS POUR PROTEGER LE MARCHE AUX
         FLEURS
@@ -69,7 +66,7 @@
 <div class="w-screen mt-10  justify-center items-center  hidden md:flex">
     {#each cards as cardItem, index}
         <div class="flex justify-center items-center w-1/3">
-            <My_card img={cardItem.img} href={cardItem.href} title={cardItem.title} description={cardItem.description}/>
+            <My_card img={cardItem.img} title={cardItem.title} description={cardItem.description}/>
         </div>
     {/each}
 </div>
