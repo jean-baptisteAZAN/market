@@ -4,6 +4,7 @@
     import Footer from "$lib/component/footer.svelte";
     import {onMount} from "svelte";
     import My_card from "$lib/component/card.svelte";
+    import favico from "$lib/assets/logo.png";
 
     onMount(() => {
         const updateParticlesToShow = () => {
@@ -44,6 +45,15 @@
 
 </script>
 
+<svelte:head>
+    <!-- Primary Meta Tags -->
+    <title>Marché aux fleurs de Paris</title>
+    <meta name="title" content="Appel aux dons pour le marché aux fleurs" />
+    <meta name="description" content="Fleuristes du marché et spécialistes dévoués s'unissent pour défendre un projet qui préserve à la fois l'histoire et l'avenir de ce lieu unique. De nombreuses actions sont lancées pour que le Marché aux Fleurs reste accessible et appartienne pour l’éternité à tous les parisiens et amoureux du végétal." />
+
+    <link rel="icon" href={favico} />
+</svelte:head>
+
 <div class="h-screen w-screen overflow-hidden">
     <Navbar/>
     <Hero/>
@@ -55,7 +65,7 @@
         FLEURS
     </h1>
     <h2 class="text-center text-[20px] md:text-[30px] font-roboto mt-5">
-        Fleuriste du marché et spécialistes dévoués s'unissent pour défendre un
+        Fleuristes du marché et spécialistes dévoués s'unissent pour défendre un
         projet qui préserve à la fois l'histoire et l'avenir de ce lieu unique.
         De nombreuses actions sont lancées pour que le Marché aux Fleurs reste
         accessible et appartienne pour l’éternité à tous les parisiens et amoureux
