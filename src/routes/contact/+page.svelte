@@ -1,6 +1,7 @@
 <script>
     import Navbar from "$lib/component/navbar.svelte"
     import favico from '$lib/assets/logo.png';
+    import Footer from "$lib/component/footer.svelte"
 </script>
 
 <svelte:head>
@@ -52,3 +53,4 @@
     </div>
     </section>
 </div>
+<Footer/>

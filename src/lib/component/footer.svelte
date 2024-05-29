@@ -9,8 +9,7 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
 
-        <div class="w-[70%] md:w-[1px] h-[1px] md:h-[130px] mt-2 md:mt-0 md:ml-[5%] mt-3 bg-gray-700 bg-opacity-40 rounded-full">
-
+        <div class="w-[70%] md:w-[1px] h-[1px] md:h-[130px] mt-2 md:mt-0 md:ml-[5%] bg-gray-700 bg-opacity-40 rounded-full">
         </div>
 
         <div class=" flex flex-col justify-center items-center mt-2 md:mt-0 md:ml-[5%]">
@@ -25,10 +24,7 @@
             </ul>
         </div>
 
-        <div class="w-[70%] md:w-[1px] h-[1px] md:h-[130px] mt-2 md:mt-0 md:ml-[5%] bg-gray-700 bg-opacity-40 rounded-full">
-
-        </div>
-
+        <div class="w-[70%] md:w-[1px] h-[1px] md:h-[130px] mt-2 md:mt-0 md:ml-[5%] bg-gray-700 bg-opacity-40 rounded-full"/>
         <div class=" flex flex-col justify-center items-center mt-2 md:mt-0 md:ml-[5%] gap-4">
             <div class="flex gap-10 flex-row">
                 <a href="https://www.instagram.com/marcheauxfleursparis.leprojet/" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white border-solid border-2 border-gray-500 rounded-full p-2 hover:scale-125 transition-all">
