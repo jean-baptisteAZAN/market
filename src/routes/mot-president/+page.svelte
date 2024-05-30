@@ -21,7 +21,7 @@
     </h1>
     <div class="w-full flex flex-col md:flex-row items-center justify-center font-roboto text-3xl mt-10 md:px-20">
         <h4 class="w-full md:w-[50%] px-10 md:pr-20">
-            Derrière le projet de rénovation du Marché aux Fleurs se cache une réalité bien plus sombre : la Ville de Paris envisage d'évincer ses commerçants historiques sans indemnité, menaçant ainsi l'existence même de ce lieu unique.
+            Derrière le projet de rénovation du Marché aux Fleurs se cache une réalité bien plus sombre : la Ville de Paris envisage d'évincer ses commerçants historiques, menaçant ainsi l'existence même de ce lieu unique.
             Loin d'être une simple rénovation, ce projet semble dissimuler des intentions cachées qui risquent de dénaturer l'âme du Marché aux Fleurs,
         </h4>
         <img src="/phtos/president.jpeg" alt="img" class="w-full md:w-[50%] h-[50rem] rounded-2xl">

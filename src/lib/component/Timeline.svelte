@@ -101,7 +101,8 @@
                         </div>
                         <div class="w-full sm:w-1/2 sm:pl-8">
                             <div class="p-4 bg-white rounded shadow">
-                                Et si nous ne parvenons pas à nous imposer , utiliser le fruit de vos dons pour proposer à nos salariés des indemnités honorables de licenciement et aux commerçants qui le souhaitent une reconversion digne .                            </div>
+                                Et si nous ne parvenons pas à nous imposer, utiliser le fruit de vos dons pour proposer aux commerçants qui le souhaitent une reconversion digne .
+                            </div>
                         </div>
                     </div>
                     <div class="rounded-full bg-green-800 border-white border-4 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
