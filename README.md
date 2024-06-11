@@ -1,6 +1,6 @@
 
 # Marché aux fleurs, site web
-Site web de l'association du marché aux fleurs Elisabeth II à Paris, visisble sur https://www.marcheauxfleursdeparis.fr
+Site web de l'association du marché aux fleurs Elisabeth II à Paris, visible sur https://www.marcheauxfleursdeparis.fr
 Site web realisé en SvelteJS et avec Tailwind CSS
 
 ## Installation
