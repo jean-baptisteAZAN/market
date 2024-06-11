@@ -1,58 +1,15 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Marché aux fleurs, site web
+Site web de l'association du marché aux fleurs Elisabeth II à Paris, visisble sur https://www.marcheauxfleursdeparis.fr
+Site web realisé en SvelteJS et avec Tailwind CSS
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Switching configuration for static hosting
-
-Please follow this [SvelteKit tutorial](https://kit.svelte.dev/docs/adapter-static) for more information.
-
-## Serving in a domain subpath
-
-change `adapter` and `paths` configurations in `svelte.config.js` under `kit`:
-
-```js
-kit: {
-  adapter: adapter({
-    pages: process.env.NODE_ENV === "production" ? "build/mysubpath" : undefined,
-    assets: process.env.NODE_ENV === "production" ? "build/mysubpath" : undefined,
-  }),
-  paths: {
-    base: process.env.NODE_ENV === "production" ? "/mysubpath" : undefined,
-  },
-}
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+    git@github.com:jean-baptisteAZAN/marketofflowers.git
+    cd marketofflowers
 ```
-
-## Building
-
-To create a production version of your app:
-
+## And run by using 
 ```bash
-npm run build
+    npm i && npm run dev -- --open
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
